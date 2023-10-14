@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dev Detective</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+
+        <div class="header">
+            <h1>DevDetective</h1>
+            <div class="mode">
+                <span class="mode-name">Dark</span>
+                <img src="./Images/moon-icon.svg" alt="" loading="lazy" mode-icon height="24px">
+            </div>
+        </div>
+        
+        <p no-result>no search result </p>
+        <form class="search-form" searchForm>
+            <input type="text" class="input-field" placeholder="Enter a github username...">
+            <button type="submit">
+                Search
+            </button>
+        </form>
+
+        <div class="container">
+            <div class="heading">
+                <img src="" alt="" loading="lazy" userImage width="120px">
+                <div class="main">
+                    <div class="names">
+                        <div class="full-name"></div>
+                        <a href="#" class="user-name"></a>
+                    </div>
+                    <div class="doj"></div>
+                </div>
+            </div>
+            <div class="bio"></div>
+
+            <div class="details">
+                <div class="repositry">
+                    <p>Repos</p>
+                    <p class="repo count"></p>
+                </div>
+                <div class="followers">
+                    <p>Followers</p>
+                    <p class="folw count"></p>
+                </div>
+                <div class="following">
+                    <p>Following</p>
+                    <p class="foli count"></p>
+                </div>
+            </div>
+
+            <div class="contact-section">
+                <ul>
+                    <li>
+                        <img src="./Images/location-icon.svg" alt="">
+                        <a href="" location> Not Available</a>
+                    </li>
+                    <li>
+                        <img src="./Images/twitter-icon.svg" alt="">
+                        <a href="" twitter> Not Available</a>
+                    </li>
+                    <li>
+                        <img src="./Images/company-icon.svg" alt="">
+                        <a href="" company> Not Available</a>
+                    </li>
+                    <li>
+                        <img src="./Images/website-icon.svg" alt="">
+                        <a href="" website> Not Available</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
