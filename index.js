@@ -19,7 +19,7 @@ const months = [
 
 const mode = document.querySelector(".mode");
 let curMode = 'light';
-const userName = "loveBabbar";
+const userName = "ritik2911";
 const userDetails = getUserDetails(userName);
 
 mode.addEventListener('click',(e) =>{
